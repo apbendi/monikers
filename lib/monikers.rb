@@ -1,11 +1,9 @@
 require "monikers/version"
 
 module Monikers
-  def initialize
-    @dataset = eval(File.read(File.expand_path("../../data/.rb",  __FILE__)))
-  end
+  @dataset = eval(File.read(File.expand_path("../../lib/data/monikers_hash.rb",  __FILE__)))
 
-  def moniker_list(name)
+  def self.moniker_list(name)
     name_down = name.downcase
 
     if @dataset.key?(name.downcase)
@@ -15,7 +13,7 @@ module Monikers
     end
   end
 
-  def moniker_equivalents?(name1, name2)
+  def self.moniker_equivalents?(name1, name2)
     name1_down = name1.downcase
     name2_down = name2.downcase
 
