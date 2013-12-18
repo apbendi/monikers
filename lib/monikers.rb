@@ -19,6 +19,10 @@ module Monikers
     name1_down = name1.downcase
     name2_down = name2.downcase
 
+    if name1_down == name2_down
+      return true
+    end
+
     if @dataset.key?(name1_down)
       if @dataset[name1_down].include?(name2_down)
         return true
