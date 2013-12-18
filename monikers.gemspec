@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Monikers::VERSION
   gem.authors       = ["Ben Di"]
   gem.email         = ["bdifrancesco@ascensionpress.com"]
-  gem.description   = %q{Cached List of First Name Monikers}
+  gem.description   = %q{Cached List of First Name Monikers (nicknames) in easy-access Ruby Gem}
   gem.summary       = %q{Gem contains a precached data structure of first name monikers & convenience methods for access & comparison}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/apbendi/monikers"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
