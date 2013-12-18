@@ -1,3 +1,5 @@
+require 'pp'
+
 module Monikers
   module Generator
     CSV_FILE_PATH = '../../data/monikers_list.csv'.freeze

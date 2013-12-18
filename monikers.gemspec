@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Monikers::VERSION
   gem.authors       = ["Ben Di"]
   gem.email         = ["bdifrancesco@ascensionpress.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Cached Lists of First Name Monikers}
+  gem.summary       = %q{Gem contains a precached data structure of first name monikers & convenience methods for access & comparison}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
@@ -17,6 +17,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-   s.add_dependency 'pp'
-   s.add_development_dependency 'rspec', '~> 2.10'
+   gem.add_development_dependency 'rspec', '~> 2.10'
 end
