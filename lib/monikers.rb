@@ -7,7 +7,7 @@ module Monikers
     name_down = name.downcase
 
     if @dataset.key?(name.downcase)
-      return @dataset[name_down]<< name_down
+      return @dataset[name_down].dup<< name_down
     else
       return Array.new<< name_down
     end
