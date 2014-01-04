@@ -33,6 +33,15 @@ describe Monikers do
         monikers_list.sort.should eq(correct_results.sort)
       end
     end
+
+    context "when given John vs. john" do
+      let(:lowcase_list) { Monikers.list("john") }
+      let(:upcase_list) { Monikers.list("John") }
+
+      it "should return the same list" do
+        lowcase_list.sort.should eq(upcase_list.sort)
+      end
+    end
   end
 
   context "when testing equivalents" do
@@ -42,6 +51,18 @@ describe Monikers do
 
     it "should not match Mike and Matt" do
       Monikers.equivalents?("Mike", "Matt").should eq(false)
+    end
+
+    it "should match Polycarp and Polycarp" do
+      Monikers.equivalents?("Polycarp", "Polycarp").should eq(true)
+    end
+
+    it "should match joE and Joe" do
+      Monikers.equivalents?("joE", "Joe").should eq(true)
+    end
+
+    it "should not match Jim and jOn" do
+      Monikers.equivalents?("Jim", "jOn").should eq(false)
     end
   end
 
