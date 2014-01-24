@@ -241,10 +241,10 @@
  "belinda"=>["belle", "linda"],
  "linda"=>
   ["belinda", "lindy", "lynn", "melinda", "philinda", "rosalinda", "rosalyn"],
- "benedict"=>["ben", "bennie"],
- "ben"=>["benedict", "benjamin", "bennie", "jamie"],
+ "benedict"=>["ben", "bennie", "benny"],
+ "ben"=>["benedict", "benjamin", "bennie", "jamie", "benny"],
  "bennie"=>["benedict", "benjamin", "ben"],
- "benjamin"=>["ben", "benjy", "bennie", "jamie"],
+ "benjamin"=>["ben", "benjy", "bennie", "jamie", "benny"],
  "benjy"=>["benjamin"],
  "jamie"=>["benjamin", "james", "ben"],
  "bernard"=>["barney", "berney", "bernie"],
@@ -1360,4 +1360,5 @@
  "cheryl"=>["sheryl"],
  "sheryl"=>["cheryl", "sher"],
  "cher"=>["sher"],
- "nik"=>["nick"]}
+ "nik"=>["nick"],
+ "benny"=>["benedict", "benjamin", "ben"]}

@@ -18,7 +18,7 @@ describe Monikers do
   context "when testing list method" do  
     context "when given Ben" do
       let(:monikers_list) { Monikers.list("Ben") }
-      let(:correct_results) { ["benjamin", "jamie", "benedict", "bennie", "ben"] }
+      let(:correct_results) { ["benjamin", "jamie", "benedict", "bennie", "benny", "ben"] }
 
       it "should return the correct monikers list" do
         monikers_list.sort.should eq(correct_results.sort)
@@ -63,6 +63,10 @@ describe Monikers do
 
     it "should not match Jim and jOn" do
       Monikers.equivalents?("Jim", "jOn").should eq(false)
+    end
+
+    it "should match Ben and Benny" do
+      Monikers.equivalents?("Ben", "Benny").should eq(true)
     end
   end
 
