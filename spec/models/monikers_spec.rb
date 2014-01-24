@@ -15,7 +15,7 @@ describe Monikers do
     end
   end
 
-  context "when testing list" do  
+  context "when testing list method" do  
     context "when given Ben" do
       let(:monikers_list) { Monikers.list("Ben") }
       let(:correct_results) { ["benjamin", "jamie", "benedict", "bennie", "ben"] }
@@ -44,7 +44,7 @@ describe Monikers do
     end
   end
 
-  context "when testing equivalents" do
+  context "when testing equivalents method" do
     it "should match Bob and Robert" do
       Monikers.equivalents?("Bob", "Robert").should eq(true)
     end 
