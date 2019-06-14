@@ -1363,4 +1363,9 @@
  "nik"=>["nick"],
  "benny"=>["benedict", "benjamin", "ben"],
  "bradley"=>["brad"],
- "michel"=>["michael"]}
+ "michel"=>["michael"],
+ "doug"=>["douglas", "dougie"],
+ "douglas"=>["doug", "dougie"],
+ "dougie"=>["doug", "douglas"],
+ "shari"=>["sharilyn"],
+ "sharilyn"=>["shari"]}
