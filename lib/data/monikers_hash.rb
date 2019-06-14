@@ -255,7 +255,7 @@
  "bill"=>["fred", "william", "willie", "billy", "will"],
  "billy"=>["fred", "william", "bill"],
  "bradford"=>["brad", "ford"],
- "brad"=>["bradford", "ford"],
+ "brad"=>["bradford", "ford", "bradley"],
  "ford"=>["bradford", "clifford", "brad"],
  "bridget"=>["biddie", "biddy", "bridgie", "bridie"],
  "biddie"=>["bridget", "biddy"],
@@ -1361,4 +1361,5 @@
  "sheryl"=>["cheryl", "sher"],
  "cher"=>["sher"],
  "nik"=>["nick"],
- "benny"=>["benedict", "benjamin", "ben"]}
+ "benny"=>["benedict", "benjamin", "ben"],
+ "bradley"=>["brad"]}
