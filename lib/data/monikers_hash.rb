@@ -1369,4 +1369,6 @@
  "dougie"=>["doug", "douglas"],
  "shari"=>["sharilyn"],
  "sharilyn"=>["shari"],
- "sue ellen"=>["sue"]}
+ "sue ellen"=>["sue"],
+ "masu"=>["masarath"],
+ "masarath"=>["masu"]}
