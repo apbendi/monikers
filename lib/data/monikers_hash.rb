@@ -1242,7 +1242,7 @@
  "sully"=>["sullivan"],
  "van"=>["sullivan"],
  "susan"=>["hannah", "sue", "sukey", "susie", "suzie"],
- "sue"=>["susan", "susannah", "susie"],
+ "sue"=>["susan", "susannah", "susie", "sue ellen"],
  "sukey"=>["susan", "susannah"],
  "susie"=>["susan", "susannah", "sue", "suzie"],
  "suzie"=>["susan", "susie"],
@@ -1368,4 +1368,5 @@
  "douglas"=>["doug", "dougie"],
  "dougie"=>["doug", "douglas"],
  "shari"=>["sharilyn"],
- "sharilyn"=>["shari"]}
+ "sharilyn"=>["shari"],
+ "sue ellen"=>["sue"]}
